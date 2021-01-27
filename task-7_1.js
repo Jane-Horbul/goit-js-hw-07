@@ -7,7 +7,7 @@ console.log(`В списке ${document.getElementsByClassName('item').length} �
 
 const itemChildrenArray = Array.from(document.getElementsByClassName('item'));
 
-for (let num = 0; num <= itemChildrenArray.length; num++) {
+for (let num = 0; num < itemChildrenArray.length; num++) {
 
     console.log(`Категория: ${itemChildrenArray[num].firstElementChild.textContent} 
 Количество элементов: ${itemChildrenArray[num].lastElementChild.children.length}`);
